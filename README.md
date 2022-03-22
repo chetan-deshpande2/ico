@@ -1,15 +1,28 @@
-# Basic Sample Hardhat Project
+Price Caluclations :
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+1 ETH = 2500$ = 2500*10**8
 
-Try running some of the following tasks:
+To calcuate price of 1 token
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+1  token = 0.0115$ .i e 115*10**4
+
+(price of 1 token / price of ETH/USD) = rate 
+
+
+0.0115/2500 = 0.0000046
+
+Price of 1 token = 0.0115$ i.e = 0.0000046ETH
+
+
+Token Smart contract Address :- 0x71cb21900FD56cc13A58Dee9D07d5a0DB5Cc45bF
+TokenSale Smart contract address :- 0xf39D049BB4EF2c8E5812eA20CF3fe6C89f92e5FE
+
+Example :
+If we want to purchase token of 1 ETH = 1*10**18
+then 
+
+1 * (current ETH/USD price)/ rate
+
+
+ 
+ 
